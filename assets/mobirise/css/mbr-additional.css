@@ -2371,6 +2371,9 @@ body {
     flex-shrink: 0;
     -webkit-flex-shrink: 0;
   }
+  .cid-rkl2mKBZyn .flag img {
+    height: 0.8rem !important;
+  }
 }
 .cid-rkl2mKBZyn .navbar-collapse {
   flex-basis: auto;
@@ -2379,6 +2382,11 @@ body {
 .cid-rkl2mKBZyn .nav-link:hover,
 .cid-rkl2mKBZyn .dropdown-item:hover {
   color: #767676 !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .cid-rkl2mKBZyn .flag img {
+    height: 0.8rem !important;
+  }
 }
 .cid-rkpVujJETn .modal-body .close {
   background: #1b1b1b;
