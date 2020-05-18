@@ -1,0 +1,14 @@
+@font-face {
+   font-family: 'Cabin Sketch';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_es.veda-egypt.com/fonts/Cabin Sketch/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Cabin Sketch';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///Users/RoelvanSabben1/Documents/GitHub/www_es.veda-egypt.com/fonts/Cabin Sketch/regular.ttf') format('truetype');
+}
