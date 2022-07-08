@@ -137,8 +137,7 @@
     "favicon": "",
     "noImageResize": "",
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@",
-    "imageResize": true
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "gallery.html": {
