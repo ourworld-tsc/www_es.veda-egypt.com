@@ -1,0 +1,21 @@
+name: es.veda-egypt
+on: 
+  push:
+    branch: [ master ]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: pushing latest change on www.es.veda-egypt.com
+      uses: appleboy/ssh-action@master
+      with:
+        host: www.es.veda-egypt.com
+        username: root
+        key: ${{ secrets.TF_SECRET }}
+        port: 22
+        script: |
+          cd /opt/www_es.veda-egypt.com/
+          git log -1
+          git pull
