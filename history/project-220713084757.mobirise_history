@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Veda Egypt Spain Definitiva YA",
-    "currentPage": "index.html",
+    "currentPage": "plan-your-visit.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -132,7 +132,7 @@
       }
     ],
     "uniqCompNum": 277,
-    "versionPublish": "4.9.3",
+    "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
@@ -2109,12 +2109,11 @@
               "background-image": "url(@bg-value)"
             },
             ".card-box": {
-              "padding": "0 1rem"
+              "padding": "0 2rem"
             },
             ".mbr-section-btn": {
               "padding-top": "1rem",
               "a": {
-                "padding": "0.8rem 1.5rem",
                 "margin-top": "1rem",
                 "margin-bottom": "0"
               }
